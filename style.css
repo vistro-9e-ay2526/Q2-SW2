@@ -1,0 +1,91 @@
+body {
+    background-image: url("./OB\ background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar {
+    --bs-navbar-toggler-border-color: transparent;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+  margin-right: 12px;  
+}
+
+.brand-name {
+    font-family: 'Arial', sans-serif;   
+    font-size: 1.25rem;                   
+    font-weight: 800;                     
+    color: #164e83;
+}
+
+.no-wrap {
+  white-space: nowrap;
+}
+
+.search-button {
+    background-color: #5098b4;
+    color: #ffffff;
+}
+
+.search-button:hover {
+    background-color: #aee4f6;
+}
+
+.dropdown-menu {
+    border: none;       
+    box-shadow: none;
+}
+
+.form-control {
+    border: none;       
+    box-shadow: none;
+}
+
+.container {
+    padding-top: 40px;
+}
+
+h2 {
+    text-align: center;
+    background-color: #164e83;
+    color: white;
+}
+
+table, th, td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+th {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+td {
+  background-color: #aee4e8;
+  color: black;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+form {
+    background-color: #dbf1f7;
+    padding: 20px;
+}
+
+input[type="text"], input[type="email"] {
+    border: 1px solid grey;
+}
